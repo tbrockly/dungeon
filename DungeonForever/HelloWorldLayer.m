@@ -9,6 +9,8 @@
 
 // Import the interfaces
 #import "HelloWorldLayer.h"
+#import "MainMenu.h"
+#import "Global.h"
 
 // HelloWorldLayer implementation
 @implementation HelloWorldLayer
@@ -34,8 +36,9 @@
 	// always call "super" init
 	// Apple recommends to re-assign "self" with the "super" return value
 	if( (self=[super init])) {
-		
+		self.isTouchEnabled = YES;
 		// create and initialize a Label
+        [[Global vars] setName:@"LOLOLOLOL"];
 		CCLabelTTF *label = [CCLabelTTF labelWithString:@"Hello World" fontName:@"Marker Felt" fontSize:64];
 
 		// ask director the the window size
@@ -48,6 +51,14 @@
 		[self addChild: label];
 	}
 	return self;
+}
+
+- (void)ccTouchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
+        // Choose one of the touches to work with
+        //gameState.rocketTime=10;
+        UITouch *touch = [touches anyObject];
+        CGPoint location = [touch locationInView:[touch view]];
+    [[CCDirector sharedDirector] pushScene:[[MainMenu scene] retain]];
 }
 
 // on "dealloc" you need to release all your retained objects

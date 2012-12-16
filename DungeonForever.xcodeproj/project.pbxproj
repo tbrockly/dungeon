@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F1CAAF11676EAC700199E82 /* MainMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1CAAF01676EAC700199E82 /* MainMenu.m */; };
+		9F1CAAFD167C364B00199E82 /* MapLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1CAAFC167C364B00199E82 /* MapLayer.m */; };
 		9F2EB9A316755FFD00E90BC7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2EB9A216755FFD00E90BC7 /* QuartzCore.framework */; };
 		9F2EB9A516755FFD00E90BC7 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2EB9A416755FFD00E90BC7 /* OpenGLES.framework */; };
 		9F2EB9A716755FFD00E90BC7 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2EB9A616755FFD00E90BC7 /* OpenAL.framework */; };
@@ -123,9 +125,15 @@
 		9F2EBB091675600200E90BC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2EBB081675600200E90BC7 /* AppDelegate.m */; };
 		9F2EBB0C1675600200E90BC7 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2EBB0B1675600200E90BC7 /* RootViewController.m */; };
 		9F2EBB0F1675600200E90BC7 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2EBB0E1675600200E90BC7 /* HelloWorldLayer.m */; };
+		9F54E218167D6DC9003E5901 /* MapNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F54E217167D6DC9003E5901 /* MapNode.m */; };
+		9F54E21C167D702E003E5901 /* Global.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F54E21B167D702E003E5901 /* Global.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F1CAAEF1676EAC700199E82 /* MainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenu.h; sourceTree = "<group>"; };
+		9F1CAAF01676EAC700199E82 /* MainMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenu.m; sourceTree = "<group>"; };
+		9F1CAAFB167C364B00199E82 /* MapLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapLayer.h; sourceTree = "<group>"; };
+		9F1CAAFC167C364B00199E82 /* MapLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapLayer.m; sourceTree = "<group>"; };
 		9F2EB99E16755FFD00E90BC7 /* DungeonForever.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DungeonForever.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F2EB9A216755FFD00E90BC7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		9F2EB9A416755FFD00E90BC7 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -363,6 +371,10 @@
 		9F2EBB0D1675600200E90BC7 /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
 		9F2EBB0E1675600200E90BC7 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		9F2EBB101675600200E90BC7 /* GameConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameConfig.h; sourceTree = "<group>"; };
+		9F54E216167D6DC9003E5901 /* MapNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapNode.h; sourceTree = "<group>"; };
+		9F54E217167D6DC9003E5901 /* MapNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapNode.m; sourceTree = "<group>"; };
+		9F54E21A167D702E003E5901 /* Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
+		9F54E21B167D702E003E5901 /* Global.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Global.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -429,6 +441,14 @@
 				9F2EB9B316755FFD00E90BC7 /* Resources */,
 				9F2EB9C716755FFE00E90BC7 /* libs */,
 				9F2EBB031675600200E90BC7 /* Supporting Files */,
+				9F1CAAEF1676EAC700199E82 /* MainMenu.h */,
+				9F1CAAF01676EAC700199E82 /* MainMenu.m */,
+				9F1CAAFB167C364B00199E82 /* MapLayer.h */,
+				9F1CAAFC167C364B00199E82 /* MapLayer.m */,
+				9F54E216167D6DC9003E5901 /* MapNode.h */,
+				9F54E217167D6DC9003E5901 /* MapNode.m */,
+				9F54E21A167D702E003E5901 /* Global.h */,
+				9F54E21B167D702E003E5901 /* Global.m */,
 			);
 			path = DungeonForever;
 			sourceTree = "<group>";
@@ -931,6 +951,10 @@
 				9F2EBB091675600200E90BC7 /* AppDelegate.m in Sources */,
 				9F2EBB0C1675600200E90BC7 /* RootViewController.m in Sources */,
 				9F2EBB0F1675600200E90BC7 /* HelloWorldLayer.m in Sources */,
+				9F1CAAF11676EAC700199E82 /* MainMenu.m in Sources */,
+				9F1CAAFD167C364B00199E82 /* MapLayer.m in Sources */,
+				9F54E218167D6DC9003E5901 /* MapNode.m in Sources */,
+				9F54E21C167D702E003E5901 /* Global.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1024,6 +1048,7 @@
 				9F2EBB151675600200E90BC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
