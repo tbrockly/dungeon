@@ -127,6 +127,16 @@
 		9F2EBB0F1675600200E90BC7 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2EBB0E1675600200E90BC7 /* HelloWorldLayer.m */; };
 		9F54E218167D6DC9003E5901 /* MapNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F54E217167D6DC9003E5901 /* MapNode.m */; };
 		9F54E21C167D702E003E5901 /* Global.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F54E21B167D702E003E5901 /* Global.m */; };
+		9FE00DAE1684294200617615 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE00DAD1684294100617615 /* Character.m */; };
+		9FE00DB11684297E00617615 /* Job.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE00DB01684297E00617615 /* Job.m */; };
+		9FE00DB716842A8B00617615 /* Ability.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE00DB616842A8A00617615 /* Ability.m */; };
+		9FE00DBA16842E1900617615 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE00DB916842E1900617615 /* Item.m */; };
+		9FE00DC0168431AA00617615 /* Weapon.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE00DBF168431A600617615 /* Weapon.m */; };
+		9FE00DC3168431CE00617615 /* Shield.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE00DC2168431CE00617615 /* Shield.m */; };
+		9FE00DC6168431E200617615 /* Armor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE00DC5168431E100617615 /* Armor.m */; };
+		9FE00DC9168431F800617615 /* Ring.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE00DC8168431F700617615 /* Ring.m */; };
+		9FE00DCC1684320A00617615 /* Amulet.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE00DCB1684320900617615 /* Amulet.m */; };
+		9FE00DCF1684322500617615 /* Potion.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE00DCE1684322400617615 /* Potion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -375,6 +385,26 @@
 		9F54E217167D6DC9003E5901 /* MapNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapNode.m; sourceTree = "<group>"; };
 		9F54E21A167D702E003E5901 /* Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
 		9F54E21B167D702E003E5901 /* Global.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Global.m; sourceTree = "<group>"; };
+		9FE00DAC1684294100617615 /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
+		9FE00DAD1684294100617615 /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
+		9FE00DAF1684297D00617615 /* Job.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Job.h; sourceTree = "<group>"; };
+		9FE00DB01684297E00617615 /* Job.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Job.m; sourceTree = "<group>"; };
+		9FE00DB516842A8A00617615 /* Ability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ability.h; sourceTree = "<group>"; };
+		9FE00DB616842A8A00617615 /* Ability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ability.m; sourceTree = "<group>"; };
+		9FE00DB816842E1800617615 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		9FE00DB916842E1900617615 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		9FE00DBE168431A500617615 /* Weapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weapon.h; sourceTree = "<group>"; };
+		9FE00DBF168431A600617615 /* Weapon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weapon.m; sourceTree = "<group>"; };
+		9FE00DC1168431CD00617615 /* Shield.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shield.h; sourceTree = "<group>"; };
+		9FE00DC2168431CE00617615 /* Shield.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shield.m; sourceTree = "<group>"; };
+		9FE00DC4168431E100617615 /* Armor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Armor.h; sourceTree = "<group>"; };
+		9FE00DC5168431E100617615 /* Armor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Armor.m; sourceTree = "<group>"; };
+		9FE00DC7168431F600617615 /* Ring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ring.h; sourceTree = "<group>"; };
+		9FE00DC8168431F700617615 /* Ring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ring.m; sourceTree = "<group>"; };
+		9FE00DCA1684320800617615 /* Amulet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Amulet.h; sourceTree = "<group>"; };
+		9FE00DCB1684320900617615 /* Amulet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Amulet.m; sourceTree = "<group>"; };
+		9FE00DCD1684322300617615 /* Potion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Potion.h; sourceTree = "<group>"; };
+		9FE00DCE1684322400617615 /* Potion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Potion.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -438,17 +468,37 @@
 				9F2EBB0D1675600200E90BC7 /* HelloWorldLayer.h */,
 				9F2EBB0E1675600200E90BC7 /* HelloWorldLayer.m */,
 				9F2EBB101675600200E90BC7 /* GameConfig.h */,
-				9F2EB9B316755FFD00E90BC7 /* Resources */,
-				9F2EB9C716755FFE00E90BC7 /* libs */,
-				9F2EBB031675600200E90BC7 /* Supporting Files */,
 				9F1CAAEF1676EAC700199E82 /* MainMenu.h */,
 				9F1CAAF01676EAC700199E82 /* MainMenu.m */,
+				9FE00DAC1684294100617615 /* Character.h */,
+				9FE00DAD1684294100617615 /* Character.m */,
+				9FE00DB816842E1800617615 /* Item.h */,
+				9FE00DB916842E1900617615 /* Item.m */,
+				9FE00DBE168431A500617615 /* Weapon.h */,
+				9FE00DBF168431A600617615 /* Weapon.m */,
+				9FE00DC1168431CD00617615 /* Shield.h */,
+				9FE00DC2168431CE00617615 /* Shield.m */,
+				9FE00DC4168431E100617615 /* Armor.h */,
+				9FE00DC5168431E100617615 /* Armor.m */,
+				9FE00DC7168431F600617615 /* Ring.h */,
+				9FE00DC8168431F700617615 /* Ring.m */,
+				9FE00DCA1684320800617615 /* Amulet.h */,
+				9FE00DCB1684320900617615 /* Amulet.m */,
+				9FE00DCD1684322300617615 /* Potion.h */,
+				9FE00DCE1684322400617615 /* Potion.m */,
+				9FE00DAF1684297D00617615 /* Job.h */,
+				9FE00DB01684297E00617615 /* Job.m */,
+				9FE00DB516842A8A00617615 /* Ability.h */,
+				9FE00DB616842A8A00617615 /* Ability.m */,
 				9F1CAAFB167C364B00199E82 /* MapLayer.h */,
 				9F1CAAFC167C364B00199E82 /* MapLayer.m */,
 				9F54E216167D6DC9003E5901 /* MapNode.h */,
 				9F54E217167D6DC9003E5901 /* MapNode.m */,
 				9F54E21A167D702E003E5901 /* Global.h */,
 				9F54E21B167D702E003E5901 /* Global.m */,
+				9F2EB9B316755FFD00E90BC7 /* Resources */,
+				9F2EB9C716755FFE00E90BC7 /* libs */,
+				9F2EBB031675600200E90BC7 /* Supporting Files */,
 			);
 			path = DungeonForever;
 			sourceTree = "<group>";
@@ -955,6 +1005,16 @@
 				9F1CAAFD167C364B00199E82 /* MapLayer.m in Sources */,
 				9F54E218167D6DC9003E5901 /* MapNode.m in Sources */,
 				9F54E21C167D702E003E5901 /* Global.m in Sources */,
+				9FE00DAE1684294200617615 /* Character.m in Sources */,
+				9FE00DB11684297E00617615 /* Job.m in Sources */,
+				9FE00DB716842A8B00617615 /* Ability.m in Sources */,
+				9FE00DBA16842E1900617615 /* Item.m in Sources */,
+				9FE00DC0168431AA00617615 /* Weapon.m in Sources */,
+				9FE00DC3168431CE00617615 /* Shield.m in Sources */,
+				9FE00DC6168431E200617615 /* Armor.m in Sources */,
+				9FE00DC9168431F800617615 /* Ring.m in Sources */,
+				9FE00DCC1684320A00617615 /* Amulet.m in Sources */,
+				9FE00DCF1684322500617615 /* Potion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
